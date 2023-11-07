@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Calculadora</h3>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="operand1"
+                    placeholder="Operando 1"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="operand2"
+                    placeholder="Operando 2"
+                  />
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-block"
+                  id="add"
+                >
+                  Sumar
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-block"
+                  id="subtract"
+                >
+                  Restar
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-block"
+                  id="multiply"
+                >
+                  Multiplicar
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-block"
+                  id="divide"
+                >
+                  Dividir
+                </button>
+              </form>
+              <div class="mt-3" id="result">Resultado:</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

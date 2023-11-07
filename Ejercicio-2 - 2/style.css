@@ -1,0 +1,25 @@
+/* Estilos personalizados */
+body {
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo adicional para el contenedor de la calculadora */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+}
+/* Estilos personalizados para el resultado */
+#result {
+  font-size: 24px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
